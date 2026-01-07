@@ -1,0 +1,13 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/28.2.5 Chrome/138.0.7204.251 Electron/37.6.1 Safari/537.36" version="28.2.5">
+  <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
+    <mxGraphModel dx="784" dy="1185" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
+        <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
+        <mxCell id="EWu4B0akMMNX4ZXulGxz-0" value="// 2. &quot;Ruut&quot;&#xa;// tee muutuja &quot;ruudukülg&quot; milles on täisarv 0&#xa;// kuva kasutajale tekst millega küsid kasutajalt kui suurt ruutu ta tahab&#xa;// omista käsurealt saadud arv muutujasse &quot;ruudukülg&quot;&#xa;// kirjuta for tsükkel, tsükli tingimuse kontrolli pane i kontrollimisse muutuja &quot;ruudukülg&quot;&#xa;// tsükli sisse kirjuta sõne tüüpi muutuja, &quot;seeRida&quot;, kuhu omistad tühja sõne.&#xa;// tsükli sees on omakorda teine for tsükkel, ka selle tingimuse kontrolli pane i kontrollimisse muutuja &quot;ruudukülg&quot;&#39;&#xa;// nüüd sisemise tsükli sees, omista muutujale &quot;seeRida&quot; juurde liites sisse väärtus &quot;HH&quot; &#xa;// kui sisemine tsükkel on lõpetanud, siis kuva kasutajale see rida välja&#xa;// kui ka esimene tsükkel on lõpetanud, siis kuva kasutajale tekst &quot;tsüklid on lõpetanud&quot;" style="text;whiteSpace=wrap;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="250" y="80" width="560" height="180" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
