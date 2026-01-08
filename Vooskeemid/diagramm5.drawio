@@ -1,39 +1,39 @@
 <mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/28.2.5 Chrome/138.0.7204.251 Electron/37.6.1 Safari/537.36" version="28.2.5">
   <diagram id="zplkAwf3h5qJ1x2qtltR" name="Leht-1">
-    <mxGraphModel dx="2066" dy="1201" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
+    <mxGraphModel dx="784" dy="1192" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="cw11pAoM41NxL5v7Wj93-1" value="// 1. &quot;suured summad&quot;&#xa;            // kirjuta viie elemendiga massiiv, elemendid on 1,50,10,15,20, muutuja nimi otsusta ise.&#xa;            // kirjuta foreach tsükkel, ja võta kollektsiooniparameetriks oma viie elemendiga massiivi muutuja nimetus&#xa;            // tsükli sisse tee tingimuslause, mis kontrollib kas element on suurem kui 15&#xa;            // kui on suurem, siis kuva see element kasutajale välja&#xa;            /* vihje, &#xa;             * kui programm on õigesti kirjutatud, &#xa;             * siis kuvatakse kasutajale välja elemendid kakskümmend ja viiskümmend&#xa;             */" style="text;whiteSpace=wrap;" vertex="1" parent="1">
+        <mxCell id="cw11pAoM41NxL5v7Wj93-1" value="// 1. &quot;suured summad&quot;&#xa;            // kirjuta viie elemendiga massiiv, elemendid on 1,50,10,15,20, muutuja nimi otsusta ise.&#xa;            // kirjuta foreach tsükkel, ja võta kollektsiooniparameetriks oma viie elemendiga massiivi muutuja nimetus&#xa;            // tsükli sisse tee tingimuslause, mis kontrollib kas element on suurem kui 15&#xa;            // kui on suurem, siis kuva see element kasutajale välja&#xa;            /* vihje, &#xa;             * kui programm on õigesti kirjutatud, &#xa;             * siis kuvatakse kasutajale välja elemendid kakskümmend ja viiskümmend&#xa;             */" style="text;whiteSpace=wrap;" parent="1" vertex="1">
           <mxGeometry x="990" y="100" width="560" height="170" as="geometry" />
         </mxCell>
-        <mxCell id="cw11pAoM41NxL5v7Wj93-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="cw11pAoM41NxL5v7Wj93-2" target="cw11pAoM41NxL5v7Wj93-3">
+        <mxCell id="cw11pAoM41NxL5v7Wj93-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="cw11pAoM41NxL5v7Wj93-2" target="cw11pAoM41NxL5v7Wj93-3" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="cw11pAoM41NxL5v7Wj93-2" value="Algus" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="cw11pAoM41NxL5v7Wj93-2" value="Algus" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1130" y="380" width="120" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="cw11pAoM41NxL5v7Wj93-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="cw11pAoM41NxL5v7Wj93-3" target="cw11pAoM41NxL5v7Wj93-5">
+        <mxCell id="cw11pAoM41NxL5v7Wj93-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="cw11pAoM41NxL5v7Wj93-3" target="cw11pAoM41NxL5v7Wj93-5" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="cw11pAoM41NxL5v7Wj93-3" value="Tekita muutuja &quot;apelsinimahl&quot; kus asub massiiv, millele omistame algväärtuse kogumiku täisarvudega 1, 50, 10, 15 ja 20" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+        <mxCell id="cw11pAoM41NxL5v7Wj93-3" value="Tekita muutuja &quot;apelsinimahl&quot; kus asub massiiv, millele omistame algväärtuse kogumiku täisarvudega 1, 50, 10, 15 ja 20" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" parent="1" vertex="1">
           <mxGeometry x="1060" y="500" width="260" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="cw11pAoM41NxL5v7Wj93-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="cw11pAoM41NxL5v7Wj93-5" target="cw11pAoM41NxL5v7Wj93-7">
+        <mxCell id="cw11pAoM41NxL5v7Wj93-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="cw11pAoM41NxL5v7Wj93-5" target="cw11pAoM41NxL5v7Wj93-7" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="cw11pAoM41NxL5v7Wj93-5" value="seadista foreach tsükkel, kus elemendi ajutise muutuja nimi on &quot;arv&quot; ja kollektsiooni muutuja on &quot;apelsinimahl&quot;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+        <mxCell id="cw11pAoM41NxL5v7Wj93-5" value="seadista foreach tsükkel, kus elemendi ajutise muutuja nimi on &quot;arv&quot; ja kollektsiooni muutuja on &quot;apelsinimahl&quot;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" parent="1" vertex="1">
           <mxGeometry x="1075" y="670" width="230" height="75" as="geometry" />
         </mxCell>
-        <mxCell id="cw11pAoM41NxL5v7Wj93-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="cw11pAoM41NxL5v7Wj93-7" target="cw11pAoM41NxL5v7Wj93-9">
+        <mxCell id="cw11pAoM41NxL5v7Wj93-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="cw11pAoM41NxL5v7Wj93-7" target="cw11pAoM41NxL5v7Wj93-9" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="cw11pAoM41NxL5v7Wj93-11" value="Ei" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="cw11pAoM41NxL5v7Wj93-10">
+        <mxCell id="cw11pAoM41NxL5v7Wj93-11" value="Ei" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="cw11pAoM41NxL5v7Wj93-10" vertex="1" connectable="0">
           <mxGeometry x="-0.175" y="1" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="cw11pAoM41NxL5v7Wj93-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="cw11pAoM41NxL5v7Wj93-7" target="cw11pAoM41NxL5v7Wj93-21">
+        <mxCell id="cw11pAoM41NxL5v7Wj93-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="cw11pAoM41NxL5v7Wj93-7" target="cw11pAoM41NxL5v7Wj93-21" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="1160" y="1420" as="targetPoint" />
             <Array as="points">
@@ -45,23 +45,23 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="cw11pAoM41NxL5v7Wj93-23" value="Text" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="cw11pAoM41NxL5v7Wj93-19">
+        <mxCell id="cw11pAoM41NxL5v7Wj93-23" value="Jah" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="cw11pAoM41NxL5v7Wj93-19" vertex="1" connectable="0">
           <mxGeometry x="-0.9093" y="4" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="cw11pAoM41NxL5v7Wj93-7" value="Kas praegune element oli kollektsioonis viimane element?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="cw11pAoM41NxL5v7Wj93-7" value="Kas eelmine element oli kollektsioonis viimane element?" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1090" y="790" width="200" height="160" as="geometry" />
         </mxCell>
-        <mxCell id="cw11pAoM41NxL5v7Wj93-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="cw11pAoM41NxL5v7Wj93-9" target="cw11pAoM41NxL5v7Wj93-12">
+        <mxCell id="cw11pAoM41NxL5v7Wj93-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="cw11pAoM41NxL5v7Wj93-9" target="cw11pAoM41NxL5v7Wj93-12" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="cw11pAoM41NxL5v7Wj93-14" value="Jah" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="cw11pAoM41NxL5v7Wj93-13">
+        <mxCell id="cw11pAoM41NxL5v7Wj93-14" value="Jah" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="cw11pAoM41NxL5v7Wj93-13" vertex="1" connectable="0">
           <mxGeometry x="-0.4" y="-1" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="cw11pAoM41NxL5v7Wj93-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="cw11pAoM41NxL5v7Wj93-9" target="cw11pAoM41NxL5v7Wj93-7">
+        <mxCell id="cw11pAoM41NxL5v7Wj93-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="cw11pAoM41NxL5v7Wj93-9" target="cw11pAoM41NxL5v7Wj93-7" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="1390" y="1110" />
@@ -69,15 +69,15 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="cw11pAoM41NxL5v7Wj93-16" value="Ei" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="cw11pAoM41NxL5v7Wj93-15">
+        <mxCell id="cw11pAoM41NxL5v7Wj93-16" value="Ei" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="cw11pAoM41NxL5v7Wj93-15" vertex="1" connectable="0">
           <mxGeometry x="-0.7864" y="1" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="cw11pAoM41NxL5v7Wj93-9" value="Kas ajutises muutujas &quot;arv&quot; olev väärtus on suurem kui 15?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="cw11pAoM41NxL5v7Wj93-9" value="Kas ajutises muutujas &quot;arv&quot; olev väärtus on suurem kui 15?" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1090" y="1030" width="200" height="160" as="geometry" />
         </mxCell>
-        <mxCell id="cw11pAoM41NxL5v7Wj93-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="cw11pAoM41NxL5v7Wj93-12" target="cw11pAoM41NxL5v7Wj93-7">
+        <mxCell id="cw11pAoM41NxL5v7Wj93-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="cw11pAoM41NxL5v7Wj93-12" target="cw11pAoM41NxL5v7Wj93-7" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="1390" y="1310" />
@@ -85,18 +85,18 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="cw11pAoM41NxL5v7Wj93-18" value="Ei" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="cw11pAoM41NxL5v7Wj93-17">
+        <mxCell id="cw11pAoM41NxL5v7Wj93-18" value="Ei" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="cw11pAoM41NxL5v7Wj93-17" vertex="1" connectable="0">
           <mxGeometry x="-0.8063" y="2" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="cw11pAoM41NxL5v7Wj93-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="cw11pAoM41NxL5v7Wj93-12" target="cw11pAoM41NxL5v7Wj93-21">
+        <mxCell id="cw11pAoM41NxL5v7Wj93-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="cw11pAoM41NxL5v7Wj93-12" target="cw11pAoM41NxL5v7Wj93-21" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="cw11pAoM41NxL5v7Wj93-12" value="Kuva kasutajale muutuja &quot;arv&quot;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+        <mxCell id="cw11pAoM41NxL5v7Wj93-12" value="Kuva kasutajale muutuja &quot;arv&quot;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" parent="1" vertex="1">
           <mxGeometry x="1070" y="1260" width="240" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="cw11pAoM41NxL5v7Wj93-21" value="Lõpp" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="cw11pAoM41NxL5v7Wj93-21" value="Lõpp" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1130" y="1590" width="120" height="80" as="geometry" />
         </mxCell>
       </root>

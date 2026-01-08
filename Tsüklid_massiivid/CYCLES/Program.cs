@@ -120,14 +120,14 @@
              * siis kuvatakse kasutajale välja elemendid kakskümmend ja viiskümmend
              */
 
-            int[] apelsinimahl = { 1, 50, 10, 15, 20 };
-            foreach (var arv in apelsinimahl)
-            {
-                if (arv > 15)
-                {
-                    Console.WriteLine(arv);
-                }
-            }
+            //int[] apelsinimahl = { 1, 50, 10, 15, 20 };
+            //foreach (var arv in apelsinimahl)
+            //{
+            //    if (arv > 15)
+            //    {
+            //        Console.WriteLine(arv);
+            //    }
+            ////}
 
             // 2. "summeerimine"
             // kirjuta viie elemendiga massiiv, elemendid on 343,686,2300,4439,6996, muutuja nimi otsusta ise.

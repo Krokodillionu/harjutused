@@ -1,0 +1,22 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/28.2.5 Chrome/138.0.7204.251 Electron/37.6.1 Safari/537.36" version="28.2.5">
+  <diagram id="iEmr2-Eg_1GlfULOXoGD" name="Leht-1">
+    <mxGraphModel dx="2066" dy="1201" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="FA5kqbtPFPNyrXvg-U0W-1" value="// 2. &quot;summeerimine&quot;&#xa;// kirjuta viie elemendiga massiiv, elemendid on 343,686,2300,4439,6996, muutuja nimi otsusta ise.&#xa;// kirjuta täisarvu tüüpi muutuja mille sisse omistad väärtuse 0 ning mille nime otsustad ise&#xa;// kirjuta foreach tsükkel, ja võta kollektsiooniparameetriks oma viie elemendiga massiivi muutuja nimetus&#xa;// tsükli sisse liida oma täisarvu tüüpi muutujale elemendi sees olev arv juurde&#xa;// peale tsüklit kuva kasutajale oma täisarvu tüüpi muutuja välja" style="text;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="1070" y="80" width="560" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="FA5kqbtPFPNyrXvg-U0W-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="FA5kqbtPFPNyrXvg-U0W-2" target="FA5kqbtPFPNyrXvg-U0W-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FA5kqbtPFPNyrXvg-U0W-2" value="algus" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1120" y="280" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="FA5kqbtPFPNyrXvg-U0W-3" value="" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="1095" y="450" width="170" height="80" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
