@@ -1,0 +1,70 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/28.2.5 Chrome/138.0.7204.251 Electron/37.6.1 Safari/537.36" version="28.2.5">
+  <diagram name="Leht-1" id="6uiduNm1EQyBShjiLboJ">
+    <mxGraphModel dx="2066" dy="1201" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="Et-ProQIDBbOh9WcGfCi-1" value="// 1. &quot;arvuta kuni summani&quot;&#xa;// tee muutuja &quot;täisarv&quot; mille sees on täisarv 0&#xa;// kirjuta do while tsükkel&#xa;// tsükli tegevusena lahuta muutujast &quot;täisarv&quot; maha 2&#xa;// ja kuva muutuja &quot;täisarv&quot; välja&#xa;// -&gt; do while tsükli tingimuseks kirjuta kontroll, mis kontrollib kas muutujas &quot;täisarv&quot; on arv miinuses rohkem kui -31&#xa;// peale tsüklit kuva sõnum &quot;tsükkel lõppes&quot;" style="text;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="660" y="70" width="610" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="Et-ProQIDBbOh9WcGfCi-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Et-ProQIDBbOh9WcGfCi-2" target="Et-ProQIDBbOh9WcGfCi-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Et-ProQIDBbOh9WcGfCi-2" value="Algus" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="790" y="230" width="180" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="Et-ProQIDBbOh9WcGfCi-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Et-ProQIDBbOh9WcGfCi-3" target="Et-ProQIDBbOh9WcGfCi-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Et-ProQIDBbOh9WcGfCi-3" value="Tekita muutuja &quot;täisarv&quot; millele me omistame algväärtuse 0" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="752.5" y="390" width="255" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="Et-ProQIDBbOh9WcGfCi-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Et-ProQIDBbOh9WcGfCi-7" target="Et-ProQIDBbOh9WcGfCi-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Et-ProQIDBbOh9WcGfCi-7" value="Omista muutujale &quot;täisarv&quot; uus väärtus, kus on olemasolevas väärtusest kaks maha lahutatud" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="752.5" y="570" width="255" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="Et-ProQIDBbOh9WcGfCi-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Et-ProQIDBbOh9WcGfCi-9" target="Et-ProQIDBbOh9WcGfCi-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Et-ProQIDBbOh9WcGfCi-9" value="kuva kasutajale muutuja &quot;täisarv&quot; välja" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="752.5" y="750" width="255" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="Et-ProQIDBbOh9WcGfCi-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Et-ProQIDBbOh9WcGfCi-11" target="Et-ProQIDBbOh9WcGfCi-7">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1330" y="1010" />
+              <mxPoint x="1330" y="620" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Et-ProQIDBbOh9WcGfCi-14" value="Ei" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Et-ProQIDBbOh9WcGfCi-13">
+          <mxGeometry x="-0.5354" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Et-ProQIDBbOh9WcGfCi-18" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Et-ProQIDBbOh9WcGfCi-11" target="Et-ProQIDBbOh9WcGfCi-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Et-ProQIDBbOh9WcGfCi-19" value="Jah" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Et-ProQIDBbOh9WcGfCi-18">
+          <mxGeometry x="0.0167" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Et-ProQIDBbOh9WcGfCi-11" value="Kas muutuja &quot;täisarv&quot; on väiksem kui -31?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="775" y="940" width="210" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="Et-ProQIDBbOh9WcGfCi-21" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Et-ProQIDBbOh9WcGfCi-17" target="Et-ProQIDBbOh9WcGfCi-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Et-ProQIDBbOh9WcGfCi-17" value="Kuva kasutajale tekst &quot;tsükkel on lõppenud&quot;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="770" y="1200" width="220" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="Et-ProQIDBbOh9WcGfCi-20" value="Lõpp" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="795" y="1350" width="170" height="100" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
