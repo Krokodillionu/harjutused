@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.13.35913.81 d17.13
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Meetod 2", "Meetod 2.csproj", "{A14D584E-9F83-4AD5-8929-3BC2C02309EC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A14D584E-9F83-4AD5-8929-3BC2C02309EC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A14D584E-9F83-4AD5-8929-3BC2C02309EC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A14D584E-9F83-4AD5-8929-3BC2C02309EC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A14D584E-9F83-4AD5-8929-3BC2C02309EC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {CD0520DA-D73F-4A02-A2FA-9CCBC13E13D9}
+	EndGlobalSection
+EndGlobal
