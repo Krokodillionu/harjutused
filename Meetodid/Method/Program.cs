@@ -1,21 +1,26 @@
-﻿namespace Method
+﻿using System.Security.Cryptography.X509Certificates;
+
+namespace Method
 {
     internal class Program
     {
         static void Main(string[] args)
         {
+
             List<string> filmid = GetMovies();
             Console.WriteLine("Mis on sinu lemmikfilm");
             string lemmikFilm = ReadAnswer();
             DoesMovieExist(filmid, lemmikFilm);
             filmid = DoYouLikeThisMovie(filmid, "Tron 1983");
+            List<string> otsitavadFilmid = new List<string> { "Terminaator", "Vanamehe film", "Kratt" };
+            IdentifyMovies(filmid, otsitavadFilmid);
             foreach (string item in filmid)
             {
                 Console.WriteLine(item);
             }
 
             //kodutöö meetod
-
+            
             
             
             //foreach (string item in filmid)
@@ -26,6 +31,33 @@
             // kirjuta programm mis
             // küsib kasutajalt tema lemmikfilme, küsime ise on meetodiga, meetodi tulemus tagastatakse muutujasse
             // küsib kasutajalt peale seda tema lemmikfilmi, vastus hoitakse muutujas
+        }
+        public static void IdentifyMovies(List<string> collection, List<string> filter)
+        {
+            string messages = "";
+            foreach (var movie in collection)
+            {
+                int itemnr = 0;
+                foreach (var filterItem in filter)
+                {
+                    if (movie == filterItem)
+                    {
+                        messages += "Ill be back.\n";
+                    }
+                    else if (itemnr == 1)
+                    {
+                        messages += "Snickers\n";
+
+                    }
+                    else if (itemnr == 2)
+                    {
+                        messages += "Vaata, et ta sul tehisplära ajama ei hakka\n";
+                    }
+                        itemnr++;
+                }
+                itemnr = 0;
+            }
+            Console.WriteLine(messages);
         }
 
 
@@ -48,7 +80,7 @@
             }
             return collection;
         }
-
+        
 
 
 
