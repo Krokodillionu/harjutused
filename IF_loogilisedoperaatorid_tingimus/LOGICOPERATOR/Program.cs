@@ -5,13 +5,48 @@
         static void Main(string[] args)
         {
             //tee neli bool-tüüpi muutujat,
+            bool pliiatsid = false;
+            bool paber = false;
+            bool saag = false;
+            bool lauad = false;
+
 
             //nimedeks pane neile pliiatsid, paber, saag, lauad
 
             //küsi kasutajalt muutujasse "sisestus" vastus iga objekti
-            //kohta küsimus "kas tal on X?" millele kasutaja saab vastata jah või ei
-            //küsimine EI PEA olema tsüklis, võib ka teha 4 küsimust järjest
+            string sisestus = "";
+            int i = 0;
+            while (i < 4)
+            {
+                switch (i)
+                {
+                    case 0:
+                        Console.WriteLine("sul pliiatseid on v");
+                        break;
+                    case 1:
+                        Console.WriteLine("sul paber?");
+                        break;
+                    case 2:
+                        Console.WriteLine("sul saag?");
+                        break;
+                    case 3:
+                        Console.WriteLine("sul lauad?");
+                        break;
 
+                }
+
+
+
+
+
+
+
+
+            }
+            //kohta küsimus "kas tal on X?" millele kasutaja saab vastata jah või ei 
+            //küsimine EI PEA olema tsüklis, võib ka teha 4 küsimust järjest
+            Console.WriteLine("Sul pliiatseid on v?");
+            
             //kui ta on mingi objekti kohta vastanud ei, siis pane vastavasse muutujasse false
             //samamoodi kui ta on mingi objekti kohta vastanud jah, siis pane vastavasse muutujasse true
 
