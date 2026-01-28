@@ -1,0 +1,15 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Include="C:\Users\opilane\source\repos\Kotkas Eduard\exesaize\While\Program.cs" Link="Program.cs" />
+    <Compile Include="C:\Users\opilane\source\repos\Kotkas Eduard\exesaize\While\Program2.cs" Link="Program2.cs" />
+  </ItemGroup>
+
+</Project>
